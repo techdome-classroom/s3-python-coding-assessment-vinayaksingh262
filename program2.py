@@ -14,7 +14,7 @@ class Solution(object):
         total = 0
         prev_value = 0
 
-        # Traverse the string from right to left
+        
         for char in reversed(s):
             current_value = roman_values[char]
 
