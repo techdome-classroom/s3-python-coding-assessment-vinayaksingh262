@@ -18,5 +18,5 @@ solution = Solution()
 print(solution.isValid("()"))      
 print(solution.isValid("()[]{}"))   
 print(solution.isValid("(]"))      
-print(solution.isValid("([)]"))     # Output: False
+print(solution.isValid("([)]"))     
 print(solution.isValid("{[]}"))     # Output: True
