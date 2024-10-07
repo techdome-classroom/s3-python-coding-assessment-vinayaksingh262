@@ -1,10 +1,6 @@
 class Solution(object):
     def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
-        # Dictionary to map Roman numerals to integers
+        
         roman_values = {
             'I': 1,
             'V': 5,
