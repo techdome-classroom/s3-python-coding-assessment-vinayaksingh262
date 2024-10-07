@@ -18,7 +18,7 @@ class Solution(object):
         for char in reversed(s):
             current_value = roman_values[char]
 
-            # If the current value is less than the previous value, subtract it
+           
             if current_value < prev_value:
                 total -= current_value
             else:
